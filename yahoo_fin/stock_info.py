@@ -266,6 +266,8 @@ def tickers_ftse100(include_company_data = False):
     
     table = pd.read_html("https://en.wikipedia.org/wiki/FTSE_100_Index", attrs = {"id": "constituents"})[0]
     
+    table.columns = ["Company", "Ticker"]
+    
     if include_company_data:
         return table
     
