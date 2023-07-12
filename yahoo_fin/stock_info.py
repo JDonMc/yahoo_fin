@@ -269,7 +269,7 @@ def tickers_ftse100(include_company_data = False):
     if include_company_data:
         return table
     
-    return sorted(table.EPIC.tolist())
+    return sorted(table.Ticker.tolist())
     
 
 def tickers_ftse250(include_company_data = False):
