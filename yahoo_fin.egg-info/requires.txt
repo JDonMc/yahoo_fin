@@ -1,5 +1,5 @@
-pycryptodome
 requests_html
 feedparser
 requests
 pandas
+pycryptodome
