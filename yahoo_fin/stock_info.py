@@ -10,8 +10,8 @@ import base64
 import hashlib
 # Need to install pycryptodome package
 
-from pycryptodomex.Cipher import AES
-from pycryptodomex.Util.Padding import unpad
+from Cryptodome.Cipher import AES
+from Cryptodome.Util.Padding import unpad
 # For pretty print
 from pprint import pp
 
